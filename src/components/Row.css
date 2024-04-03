@@ -1,0 +1,32 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px
+}
+
+.movie-row{
+    display: flex;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+    /* overflow-x: scroll; */
+
+}
+
+.movie-img{
+    width:100%;
+    height:200px;
+    margin-right: 15px;
+    transition: 460ms;
+    cursor: pointer;
+}
+
+
+.movie-img:hover{
+    transform:scale(1.06);
+}
+
+h1{
+    font-size: 1.8rem;
+}
